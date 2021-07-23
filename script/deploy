@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh nueve <<EOF
+ssh root@168.181.187.26 <<EOF
  cd ~/node-app
  git pull
  pm2 restart all
