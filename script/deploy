@@ -1,7 +1,10 @@
 #!/bin/sh
-ssh root@168.181.187.26 -p 5234 <<EOF
- cd ~/node-app
- git pull
- pm2 restart all
- exit
-EOF
+#ssh root@168.181.187.26 -p 5234 <<EOF
+# cd ~/node-app
+# git pull
+# pm2 restart all
+# exit
+#EOF
+
+ssh nueve "cd /var/www/jenkins/test"
+ssh nueve "git pull origin main"
