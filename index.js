@@ -8,7 +8,8 @@ app.get('/', function (req, res) {
 });
 //listen to port 3000 by default chinga
 let port = process.env.PORT || 8081
-console.log('listen in port ' + port) // nuevo port 
+console.log('hello world') // nuevo port
+console.log('listen in port ' + port) // nuevo port
 app.listen(process.env.PORT || 8081);
  
 module.exports = app;
