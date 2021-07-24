@@ -1,7 +1,7 @@
 #!/bin/sh
-ssh -T root@168.181.187.26 -p 5234 <<EOF
+ssh -T wings <<EOF
  cd /var/www/jenkins/test
- git pull origin master
+ git pull origin main
  pm2 restart all
  exit
 EOF
