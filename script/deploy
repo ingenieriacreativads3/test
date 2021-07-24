@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh root@168.181.187.26 -p 5234 /bin/bash <<EOF
+ssh -T root@168.181.187.26 -p 5234 <<EOF
  cd /var/www/jenkins/test
  git pull origin master
  pm2 restart all
