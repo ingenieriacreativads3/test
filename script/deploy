@@ -6,5 +6,5 @@
 # exit
 #EOF
 
-ssh root@168.181.187.26 -p 5234 "cd /var/www/jenkins/test"
-ssh root@168.181.187.26 -p 5234 "git pull origin main"
+ssh nueve "cd /var/www/jenkins/test"
+ssh nueve "git pull origin main"
